@@ -2,7 +2,7 @@
 
 # Re-Former
 
-The Microverse Forms and Authentication,Bare Metal Forms and Helpers project for Ruby on Rails that consists of build some forms, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides.
+The Microverse Forms and Authentication, Bare Metal Forms and Helpers project for Ruby on Rails that consists of build some forms, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides.
 
 ## Built With
 - Ruby programming language
