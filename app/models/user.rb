@@ -1,7 +1,5 @@
 # rubocop : disable Layout/EndOfLine
 
-# rubocop : disable Style/MutableConstant
-
 class User < ApplicationRecord
   validates :username, presence: true
 
@@ -11,7 +9,5 @@ class User < ApplicationRecord
 
   validates :email, presence: true, format: { with: valid_email_regex }
 end
-
-# rubocop : enable Style/MutableConstant
 
 # rubocop : enable Layout/EndOfLine
