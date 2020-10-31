@@ -21,16 +21,26 @@ Can download this code with any method and over the terminal with the commands:
 
 - git clone https://github.com/jose-Abel/re-former.git
 
+
+
 Following theodinproject.com guidelines, this project has 2 routes:
 
 - /users/new
 - /users/:id/edit
 
-So in order to test it, once the project is cloned, and the server running typing in the terminal from the root of the project the following command:
+So in order to test it, once the project is cloned, have to install all the gems typing in the terminal the command:
 
-rails server
+- bundle install
 
-Go in the Browser to the localhost:3000 and add the endpoint /users/new to create a new user. 
+After it, run the migrations files with the command:
+
+- rails db:migrate
+
+Once that is done, run the rails server with the command:
+
+- rails server
+
+Go into the Browser to the localhost:3000 and add the endpoint /users/new to create a new user. 
 
 Once a new user is created can go to the 2nd endpoint /users/:id/edit (in this case :id will be 1 since is the first user created) and can edit your previous created user.
 
