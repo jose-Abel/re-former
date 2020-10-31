@@ -23,8 +23,8 @@ Can download this code with any method and over the terminal with the commands:
 
 Following theodinproject.com guidelines, this project has 2 routes:
 
-/users/new
-/users/:id/edit
+- /users/new
+- /users/:id/edit
 
 So in order to test it, once the project is cloned, and the server running typing in the terminal from the root of the project the following command:
 
